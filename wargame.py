@@ -70,6 +70,7 @@ class GameSetup:
         return self.computer, self.user
 
 
+
 class Game:
     def __init__(self):
         gamesetup = GameSetup()
@@ -90,7 +91,7 @@ class Round:
     def __init__(self, computer, user):
         self.computer = computer
         self.user = user
-        #   War is a special round, so a seperate class for it. self.war = War(computer, user)
+        # War is a special round, so a seperate class for it later on. self.war = War(computer, user)
 
     def play_round(self):
         input("Press Enter to draw a card\n\n\n")
